@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #183a5d; /* Цвет фона футера */
+    border-top: 1px solid #e9ecef; /* Линия сверху */
+    position: relative; /* Для позиционирования иконок */
+  }
+  
+  .socialIconsLeft, .socialIconsRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .socialIconsLeft {
+    left: 300px; /* Позиционируем иконку слева от логотипа */
+  }
+  
+  .socialIconsRight {
+    right: 300px; /* Позиционируем иконку справа от логотипа */
+  }
+  
+  .icon {
+    width: 100px; /* Размер иконок */
+    height: 100px; /* Размер иконок */
+    color: #ffffff;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo img {
+    max-width: 150px; /* Ширина логотипа */
+    height: auto;
+  }
+  

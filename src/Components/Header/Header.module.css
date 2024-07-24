@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(253, 251, 251);
+    align-items: center; 
+    padding: 20px; 
+  }
+  
+  .navi {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Выравниваем ссылки по центру */
+  }
+  
+  .link {
+    margin: 0 40px; /* Увеличиваем расстояние между ссылками */
+    text-decoration: none; /* Убираем нижние подчеркивания */
+  }
+  
+  .link a {
+    text-decoration: none; /* Убираем нижние подчеркивания для ссылок */
+    color: inherit; /* Наследуем цвет от родителя */
+    font-size: 20px; /* Увеличиваем размер шрифта */
+    font-family: Arial, sans-serif; /* Устанавливаем шрифт */
+    font-weight: bold; /* Делаем шрифт жирным */
+  }
+  
+  .logo {
+    width: 300px;
+    height: 300px;
+  }
+  
